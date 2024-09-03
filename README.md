@@ -1,6 +1,10 @@
 # Kubernetes The Hard Way
 
-This tutorial walks you through setting up Kubernetes the hard way. This guide is not for someone looking for a fully automated tool to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.
+This tutorial is a fork of the original kelseyhightower/kubernetes-the-hard-way project, which provides a step-by-step guide for setting up a Kubernetes cluster from scratch. However, while the original project focuses on using public cloud providers like GCP, this fork adapts the procedures to be carried out in a local environment using Hyper-V virtualization.
+
+If you're interested in learning the fundamentals of Kubernetes and want to build your cluster in a controlled local environment, this repository is for you. Here, you'll find all the necessary steps to construct and operate a complete Kubernetes cluster on your machine, using Hyper-V as the virtualization platform.
+
+This guide is not for someone looking for a fully automated tool to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.
 
 > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!
 
